@@ -1,0 +1,104 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.saldo{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin-bottom: 50px
+}
+
+.title{
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+  margin-top: 10px;
+  color: #FFD700	;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+.input-group{
+  display: flex;
+  align-itens: center;
+
+}
+
+.input{
+  background-color: #242424;
+  outline: 0;
+  border: none;
+  border-bottom: white 1px solid;
+  padding-bottom: 5px;
+  width: 90%;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.btn{
+  margin-left: 10px
+}
+
+#error{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 30px;
+  text-align: right;
+  padding-right: 20px;
+  border-right: #FFD700 solid 5px;
+  color: red;
+  font-size: 18px;
+  display: none;
+}
+
+#saldoinsu{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 30px;
+  text-align: right;
+  padding-right: 20px;
+  border-right: #FFD700 solid 5px;
+  color: red;
+  font-size: 18px;
+  display: none;
+}
